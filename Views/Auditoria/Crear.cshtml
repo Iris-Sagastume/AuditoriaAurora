@@ -1,0 +1,40 @@
+﻿@model SistemaAuditoria.Models.Auditoria
+
+@{
+    ViewBag.Title = "Nueva Evaluación";
+}
+
+<h2>Registrar Evaluación de Proceso TI</h2>
+
+@using (Html.BeginForm())
+{
+<div>
+    @Html.LabelFor(m => m.NombreProceso)
+    @Html.TextBoxFor(m => m.NombreProceso, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.NombreProceso)
+</div>
+
+<div>
+    @Html.LabelFor(m => m.MarcoNormativo)
+    @Html.DropDownListFor(m => m.MarcoNormativo, new SelectList(new[] { "ISO/IEC 27001", "COBIT 2019", "ITIL 4" }), "-- Selecciona --", new { @class = "form-control" })
+</div>
+
+<div>
+    @Html.LabelFor(m => m.NivelCMMI)
+    @Html.DropDownListFor(m => m.NivelCMMI, new SelectList(new[]
+    {
+    new SelectListItem { Text = "⭐ Nivel 1 - Inicial", Value = "1" },
+    new SelectListItem { Text = "⭐⭐ Nivel 2 - Gestionado", Value = "2" },
+    new SelectListItem { Text = "⭐⭐⭐ Nivel 3 - Definido", Value = "3" },
+    new SelectListItem { Text = "⭐⭐⭐⭐ Nivel 4 - Cuantitativo", Value = "4" },
+    new SelectListItem { Text = "⭐⭐⭐⭐⭐ Nivel 5 - Optimizado", Value = "5" }
+    }, "Value", "Text"), "-- Selecciona Nivel --", new { @class = "form-control" })
+</div>
+
+<div>
+    @Html.LabelFor(m => m.Comentario)
+    @Html.TextAreaFor(m => m.Comentario, new { @class = "form-control", rows = 4 })
+</div>
+
+<button type="submit" class="btn btn-primary">Guardar</button>
+}

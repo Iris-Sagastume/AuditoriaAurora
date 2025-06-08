@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SistemaAuditoria.Models.Auditoria>
+
+@{
+    ViewBag.Title = "Auditorías Registradas";
+}
+
+<h2>Historial de Evaluaciones</h2>
+
+<p>
+    @Html.ActionLink("Nueva Evaluación", "Crear", "Auditoria", new { }, new { @class = "btn btn-success" })
+    <a href="@Url.Action("ExportarExcel", "Auditoria")" class="btn btn-outline-primary ml-2">📤 Exportar a Excel</a>
+</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Proceso</th>
+        <th>Marco Normativo</th>
+        <th>Nivel</th>
+        <th>Comentario</th>
+        <th>Fecha</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.NombreProceso</td>
+            <td>@item.MarcoNormativo</td>
+            <td>
+                @{
+                    var estrellas = new string('★', item.NivelCMMI);
+                    var vacias = new string('☆', 5 - item.NivelCMMI);
+                }
+                <span style="color: goldenrod;">@estrellas@vacias</span>
+            </td>
+            <td>@item.Comentario</td>
+            <td>@item.FechaRegistro.ToShortDateString()</td>
+        </tr>
+    }
+</table>
