@@ -3,13 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Web.Mvc;
+using OfficeOpenXml;
+
 
 namespace SistemaAuditoria.Controllers
 {
     public class AuditoriaController : Controller
     {
         string connectionString = "Data Source=DESKTOP-2BF3DDU\\SQLEXPRESS;Initial Catalog=AuditoriaAutora;Integrated Security=True";
-
 
         public ActionResult Index()
         {
@@ -40,6 +41,22 @@ namespace SistemaAuditoria.Controllers
         {
             return View();
         }
+        public ActionResult HtmlPage1()
+        {
+            return View();
+        }
+        public ActionResult HtmlPage2()
+        {
+            return View();
+        }
+        public ActionResult HtmlPage3()
+        {
+            return View();
+        }
+        public ActionResult HtmlPage4()
+        {
+            return View();
+        }
 
         [HttpPost]
         public ActionResult Crear(Auditoria a)
@@ -61,9 +78,10 @@ namespace SistemaAuditoria.Controllers
             }
             return View(a);
         }
+
         public ActionResult ExportarExcel()
         {
-            var lista = new List<Auditoria>();
+                       var lista = new List<Auditoria>();
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 string query = "SELECT * FROM Auditorias";
@@ -83,20 +101,38 @@ namespace SistemaAuditoria.Controllers
                 }
             }
 
-            var sb = new System.Text.StringBuilder();
-            sb.AppendLine("Proceso\tMarco Normativo\tNivel CMMI\tComentario\tFecha");
 
-            foreach (var a in lista)
+            using (var package = new ExcelPackage())
             {
-                sb.AppendLine($"{a.NombreProceso}\t{a.MarcoNormativo}\t{a.NivelCMMI}\t{a.Comentario}\t{a.FechaRegistro.ToShortDateString()}");
-            }
+                var ws = package.Workbook.Worksheets.Add("Auditorias");
 
-            Response.Clear();
-            Response.AddHeader("content-disposition", "attachment;filename=auditorias.xls");
-            Response.ContentType = "application/vnd.ms-excel";
-            Response.ContentEncoding = System.Text.Encoding.UTF8;
-            Response.Write(sb.ToString());
-            Response.End();
+                // Encabezados
+                ws.Cells[1, 1].Value = "Proceso";
+                ws.Cells[1, 2].Value = "Marco Normativo";
+                ws.Cells[1, 3].Value = "Nivel CMMI";
+                ws.Cells[1, 4].Value = "Comentario";
+                ws.Cells[1, 5].Value = "Fecha";
+
+                int row = 2;
+                foreach (var item in lista)
+                {
+                    ws.Cells[row, 1].Value = item.NombreProceso;
+                    ws.Cells[row, 2].Value = item.MarcoNormativo;
+                    ws.Cells[row, 3].Value = item.NivelCMMI;
+                    ws.Cells[row, 4].Value = item.Comentario;
+                    ws.Cells[row, 5].Value = item.FechaRegistro.ToShortDateString();
+                    row++;
+                }
+
+                ws.Cells[1, 1, row - 1, 5].AutoFitColumns();
+                ws.Cells["A1:E1"].Style.Font.Bold = true;
+
+                Response.Clear();
+                Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+                Response.AddHeader("content-disposition", "attachment;filename=auditorias.xlsx");
+                Response.BinaryWrite(package.GetAsByteArray());
+                Response.End();
+            }
 
             return null;
         }
