@@ -1,26 +1,27 @@
-﻿<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="aspnetTitle">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
+﻿@{
+    ViewBag.Title = "Inicio - Aurora Bilingüe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="d-flex flex-column align-items-center justify-content-center text-center p-5" style="min-height: 80vh; background-color: #f9f9f9;">
     <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-            a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-            is an ideal platform for building RESTful applications on the .NET Framework.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
-        </section>>
+        <div class="col-md-6">
+            <img src="~/Content/Logo_Bilingue-removebg-preview-480x465.png" class="img-fluid rounded shadow" alt="Auditoría Escolar" />
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h1 class="display-5">Auditoría Aurora Bilingüe School</h1>
+                <p class="lead mt-3">
+                    Bienvenidos al sistema de auditoría interna de Aurora Bilingüe School, donde garantizamos procesos de calidad y mejora continua.
+                </p>
+            </div>
+        </div>
     </div>
-</main>
+</section>
+
+<section class="text-center p-5 bg-light">
+    <h2>¿Por qué una auditoría?</h2>
+    <p>
+        Aseguramos el cumplimiento de normativas internacionales como ISO/IEC 27001 y COBIT 2019, brindando confianza a toda la comunidad educativa.
+    </p>
+</section>

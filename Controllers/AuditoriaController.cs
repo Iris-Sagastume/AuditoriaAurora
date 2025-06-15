@@ -10,7 +10,8 @@ namespace SistemaAuditoria.Controllers
 {
     public class AuditoriaController : Controller
     {
-        string connectionString = "Data Source=DESKTOP-2BF3DDU\\SQLEXPRESS;Initial Catalog=AuditoriaAutora;Integrated Security=True";
+        string connectionString = "Data Source=ANTE-PC;Initial Catalog=BD;Integrated Security=True";
+
 
         public ActionResult Index()
         {
