@@ -1,7 +1,8 @@
-﻿@model List<SistemaAuditoria.Models.Auditoria>
+﻿@model Tuple<List<SistemaAuditoria.Models.Auditoria>, List<SistemaAuditoria.Models.Recomendacion>>
+
 @{
-    ViewBag.Title = "Auditorías";
-    Layout = "~/Views/Shared/_Layout.cshtml"; // Asegúrate de tener este layout
+    ViewBag.Title = "Auditorías y Recomendaciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section Styles {
@@ -11,10 +12,6 @@
             background-color: #f4f6f9;
             margin: 0;
         }
-
-       
-
-
 
         .main-content {
             margin-left: 230px;
@@ -36,18 +33,18 @@
 
         h2 {
             font-weight: 600;
+            margin-top: 40px;
             margin-bottom: 20px;
         }
     </style>
 }
-
 
 <div class="main-content">
     <h2>Auditorías</h2>
 
     <div class="mb-3">
         <a href="@Url.Action("Crear", "Auditoria")" class="btn btn-primary">+ Nueva Auditoría</a>
-        <a href="@Url.Action("ExportarExcel", "Auditoria")" class="btn btn-success ms-2">Exportar a Excel</a>
+        <a href="@Url.Action("ExportarExcel", "Auditoria")" class="btn btn-success ms-2">Exportar Auditorías a Excel</a>
     </div>
 
     <table class="table table-striped table-hover">
@@ -61,7 +58,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @foreach (var item in Model.Item1)
             {
                 <tr>
                     <td>@item.NombreProceso</td>
@@ -69,6 +66,39 @@
                     <td>@item.NivelCMMI</td>
                     <td>@item.Comentario</td>
                     <td>@item.FechaRegistro.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Recomendaciones</h2>
+
+    <div class="mb-3">
+        <a href="@Url.Action("HtmlPage1", "Auditoria")" class="btn btn-primary">+ Nueva Recomendación</a>
+        <a href="@Url.Action("ExportarRecomendacionesExcel", "Auditoria")" class="btn btn-success ms-2">Exportar Recomendaciones a Excel</a>
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Aspecto Evaluado</th>
+                <th>Observaciones</th>
+                <th>Recomendaciones</th>
+                <th>Riesgos</th>
+                <th>Fortalezas</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rec in Model.Item2)
+            {
+                <tr>
+                    <td>@rec.AspectoEvaluado</td>
+                    <td>@rec.Observaciones</td>
+                    <td>@rec.RecomendacionesTexto</td>
+                    <td>@rec.Riesgos</td>
+                    <td>@rec.Fortalezas</td>
+                    <td>@rec.FechaRegistro.ToShortDateString()</td>
                 </tr>
             }
         </tbody>

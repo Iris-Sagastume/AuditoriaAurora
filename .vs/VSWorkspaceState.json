@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Areas",
     "\\Views",
-    "\\Views\\Auditoria"
+    "\\Views\\Auditoria",
+    "\\Views\\Home",
+    "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Views\\Auditoria\\Index.cshtml",
+  "SelectedNode": "\\Views\\Auditoria\\HtmlPage2.cshtml",
   "PreviewInSolutionExplorer": false
 }

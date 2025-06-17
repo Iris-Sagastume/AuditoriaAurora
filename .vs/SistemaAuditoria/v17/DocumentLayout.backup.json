@@ -1,50 +1,213 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ANTE\\Downloads\\eliminar\\2025\\auditoria\\AuditoriaAurora\\",
+  "WorkspaceRootPath": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\downloads\\eliminar\\2025\\auditoria\\auditoriaaurora\\views\\auditoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\source\\repos\\iris-sagastume\\auditoriaaurora\\controllers\\auditoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:controllers\\auditoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\views\\auditoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:views\\auditoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|C:\\Users\\ANTE\\Downloads\\eliminar\\2025\\auditoria\\AuditoriaAurora\\views\\auditoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\source\\repos\\iris-sagastume\\auditoriaaurora\\views\\auditoria\\htmlpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:views\\auditoria\\htmlpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\source\\repos\\iris-sagastume\\auditoriaaurora\\views\\auditoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:views\\auditoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\source\\repos\\iris-sagastume\\auditoriaaurora\\models\\recomendacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:models\\recomendacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\source\\repos\\iris-sagastume\\auditoriaaurora\\models\\auditoriarecomendacionviewmodelname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:models\\auditoriarecomendacionviewmodelname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|c:\\users\\ante\\source\\repos\\iris-sagastume\\auditoriaaurora\\models\\auditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:models\\auditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\views\\auditoria\\htmlpage2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5E15D5E-3FE8-4C88-BCFA-44051F1C9207}|SistemaAuditoria.csproj|solutionrelative:views\\auditoria\\htmlpage2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 102,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuditoriaRecomendacionViewModelName.cs",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Models\\AuditoriaRecomendacionViewModelName.cs",
+              "RelativeDocumentMoniker": "Models\\AuditoriaRecomendacionViewModelName.cs",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Models\\AuditoriaRecomendacionViewModelName.cs",
+              "RelativeToolTip": "Models\\AuditoriaRecomendacionViewModelName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:44:39.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auditoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\Index.cshtml",
+              "RelativeToolTip": "Views\\Auditoria\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T23:38:47.342Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTE\\Downloads\\eliminar\\2025\\auditoria\\AuditoriaAurora\\Views\\Auditoria\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auditoria\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\ANTE\\Downloads\\eliminar\\2025\\auditoria\\AuditoriaAurora\\Views\\Auditoria\\Crear.cshtml",
-              "RelativeToolTip": "Views\\Auditoria\\Crear.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Title": "AuditoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Controllers\\AuditoriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuditoriaController.cs",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Controllers\\AuditoriaController.cs",
+              "RelativeToolTip": "Controllers\\AuditoriaController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAUwLkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:53:12.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Recomendacion.cs",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Models\\Recomendacion.cs",
+              "RelativeDocumentMoniker": "Models\\Recomendacion.cs",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Models\\Recomendacion.cs",
+              "RelativeToolTip": "Models\\Recomendacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:52:51.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Auditoria.cs",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Models\\Auditoria.cs",
+              "RelativeDocumentMoniker": "Models\\Auditoria.cs",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Models\\Auditoria.cs",
+              "RelativeToolTip": "Models\\Auditoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:41:53.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HtmlPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\HtmlPage1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auditoria\\HtmlPage1.cshtml",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\HtmlPage1.cshtml",
+              "RelativeToolTip": "Views\\Auditoria\\HtmlPage1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T01:29:21.001Z",
+              "WhenOpened": "2025-06-16T21:00:11.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTE\\Downloads\\eliminar\\2025\\auditoria\\AuditoriaAurora\\Views\\Auditoria\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auditoria\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ANTE\\Downloads\\eliminar\\2025\\auditoria\\AuditoriaAurora\\Views\\Auditoria\\Index.cshtml",
-              "RelativeToolTip": "Views\\Auditoria\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auditoria\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Auditoria\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T23:57:00.536Z",
+              "WhenOpened": "2025-06-15T19:51:31.376Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAwwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T20:58:47.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HtmlPage2.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\HtmlPage2.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auditoria\\HtmlPage2.cshtml",
+              "ToolTip": "C:\\Users\\ANTE\\source\\repos\\Iris-Sagastume\\AuditoriaAurora\\Views\\Auditoria\\HtmlPage2.cshtml",
+              "RelativeToolTip": "Views\\Auditoria\\HtmlPage2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T21:00:11.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 435,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

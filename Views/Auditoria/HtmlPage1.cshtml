@@ -1,10 +1,26 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+﻿@model SistemaAuditoria.Models.Recomendacion
 
-</body>
-</html>
+@using (Html.BeginForm("GuardarRecomendacion", "Auditoria", FormMethod.Post))
+{
+    <div>
+        <label>Aspecto Evaluado:</label>
+        @Html.TextBoxFor(m => m.AspectoEvaluado, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>Observaciones:</label>
+        @Html.TextAreaFor(m => m.Observaciones, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>Recomendaciones:</label>
+        @Html.TextAreaFor(m => m.RecomendacionesTexto, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>Riesgos:</label>
+        @Html.TextAreaFor(m => m.Riesgos, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>Fortalezas:</label>
+        @Html.TextAreaFor(m => m.Fortalezas, new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+}
